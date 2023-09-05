@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+        }
+
+        h1
+        {
+            margin: 0;
+        }
+
+
+        header,footer
+        {
+            background-color: #8267BE;
+            color: #FFBD35;
+            padding: 15px;
+        }
+
+        .menu
+        {
+            float: left;
+            
+            width: 25%;
+            
+
+        }
+
+        .menu ul
+        {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .menu li
+        {
+            padding: 8px;
+            margin-bottom: 8px;
+            background-color: #8267BE;
+            color:#fff;
+
+        }
+
+        .menu li:hover
+        {
+            cursor: pointer;/*üzerine hover olduğumuzda parmak işareti çıkmasına yardımcı oluyor*/
+            color: #000000;
+
+        }
+
+        
+        .content
+        {
+            
+            width: 75%;
+           
+
+        }
+
+        .clearfix::after
+        {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .col
+        {
+            float: left;
+            padding: 15px 15px 15px 0;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Header</h2>
+    </header>
+
+    <main class="clearfix">
+        <div class="menu col">
+            <ul >
+                <li>Html</li>
+                <li>Css</li>
+                <li>Javascript</li>
+            </ul>
+        </div>
+        <div class="content col">
+            <h1>Komple Web Geliştirme Eğitimi</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod nulla dicta minus maxime dolor corrupti explicabo iure deleniti suscipit necessitatibus possimus obcaecati deserunt, nesciunt, voluptatum alias voluptatem dolorum! Beatae, ipsum?
+            </p>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis eos suscipit vero dolor quidem. Dignissimos ratione, ea nam assumenda perspiciatis numquam sit, soluta adipisci cupiditate aperiam ad iusto. Modi consectetur dolorum nec.
+            </p>
+        </div>
+    </main>
+
+
+
+
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+</body>
+</html>

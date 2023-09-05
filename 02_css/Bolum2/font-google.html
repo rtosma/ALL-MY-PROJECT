@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+
+        *
+        {
+            box-sizing: border-box;
+        }
+
+        body{
+            margin: 0;
+            font-family: 'Lato', sans-serif;
+        }
+
+        #showcase
+        {
+            background-image: url('home-bg.jpeg');
+            background-position: center;
+            height: 500px;
+            width: 100%;
+            padding: 10px;
+            
+
+        }
+
+        .main-header
+        {
+            background-color: #393E46;
+            padding: 8px 16px;
+        }
+        .main-nav
+        {
+            display: inline-block;
+            width: calc(100% - 101px);
+            text-align: right;
+        }
+        .main-nav__items{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        
+        }
+        .main-nav__item
+        {
+            display: inline-block;
+            margin: 0 10px;
+            
+        }
+        
+        .main-header__logo
+        {
+            color:#00ADB5;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 21px;
+        }
+        .main-nav__item  a{
+            
+            text-decoration: none;
+            color: #fff;
+            
+        }
+        .main-nav__item a:hover
+        {
+            color:#222831 ;
+        }
+        .main-nav__item a:active
+        {
+            color: white;
+        }
+        .main-nav__items a::before
+        {
+            content: '\2022';
+        }
+        
+        .main-nav__item--login a
+        {
+            color:#fff;
+            background-color: #00ADB5;
+            padding: 4px 16px;
+            border-radius: 8px;
+            border: 2px solid #EEEEEE;
+        }
+        .main-nav__item--login a:hover
+        {
+            color: #222831;
+            
+        }
+        .main-nav__item--login a::before 
+        {
+            content: none;
+        }
+        
+        #how-it-works
+        {
+            background-color: #393E46;
+            padding: 10px;
+            text-align: center;
+        }
+        #how-it-works h2
+        {
+            color: aliceblue;
+            font-size: 30px;
+            
+        }
+
+
+        .row
+        {
+            margin-bottom: 40px;
+        }
+        .col
+        {
+            display: inline-block;
+            width: 30%;
+            padding: 16px;
+            margin: 8px;
+        }
+
+        .icon-box h3
+        {
+            color: aliceblue;
+            font-size: 26px;
+        }
+        .icon-box i
+        {
+            color: #EEEEEE;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <a href="uygulama-how_it_works.html" class="main-header__logo">MovieApp</a>
+        
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item">
+                    <a href="#">Filmler</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">Diziler</a>
+                </li>
+                <li class="main-nav__item main-nav__item--login">
+                    <a href="#">Login</a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="showcase">
+            <h1 >Welcome To MovieApp</h1>
+        </section>
+        <section id="how-it-works">
+            <div class="row"> 
+                <h2 style="color: #00ADB5;">How it works?</h2>
+                <p style="color:#EEEEEE  ;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, magnam eius beatae cupiditate cum atque error velit inventore, doloremque minima officia asperiores sed nihil, temporibus voluptates iure esse numquam tenetur!</p>
+            </div>
+
+            <div class="row">
+                <div class="icon-box col">
+                    <i class="fa-solid fa-right-to-bracket fa-3x"></i>
+                    <h3 style="color:#00ADB5 ;">Register</h3>
+                    <p style="color:#EEEEEE ;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde impedit qui dolor, saepe numquam consequatur.</p>
+                </div>
+                <div class="icon-box col">
+                    <i class="fa-brands fa-buffer fa-3x "></i>
+                    <h3 style="color:#00ADB5">Bir Plan Seç</h3>
+                    <p style="color:#EEEEEE ;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde impedit qui dolor, saepe numquam consequatur.</p>
+                </div>
+                <div class="icon-box col">
+                    <i class="fa-solid fa-face-smile fa-3x"></i>
+                    <h3 style="color:#00ADB5;">Enjoy Movies</h3>
+                    <p style="color:#EEEEEE ;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde impedit qui dolor, saepe numquam consequatur.</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <h3>
+                    Watch all Movies & TV Shows once they get released!
+
+                </h3>
+
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta distinctio error officiis. Perferendis quidem voluptatibus repellat sunt incidunt veniam ratione, eum et porro delectus magnam, natus nulla autem? Hic, dolores.
+                </p>
+            </div>
+        
+        </section>
+        
+    </main> 
+</body>
+</html>

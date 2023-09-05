@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    p
+    {
+        border: 2px solid red;
+        padding: 5px;
+    }    
+    img
+    {
+
+        width: 200px;
+        float: left ;
+        margin-right: 10px;
+        
+    }
+
+    .clearfix::after
+    {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore nostrum, veniam nihil odio officia sequi corrupti similique eveniet provident commodi obcaecati autem explicabo delectus, incidunt temporibus at sunt nesciunt repudiandae exercitationem tenetur distinctio cupiditate. Animi eius, ab expedita, pariatur consequuntur rerum ex dolore odio, id sapiente tempore accusamus minima.
+    </p>
+
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, porro excepturi delectus aspernatur molestias quia asperiores consectetur maxime assumenda necessitatibus aperiam reprehenderit blanditiis ipsa dolorem repellat ab deleniti officia quaerat?
+    </p>
+
+    <p class="clearfix">
+        <img src="rowing.jpeg" alt="">
+        <span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, laborum quos accusamus suscipit deserunt quam sunt molestiae, quas ratione consectetur quae corporis maiores officia beatae perferendis provident debitis, minus vel.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, id ipsam, molestias fugit inventore ex hic aliquam expedita, magnam eligendi porro vero voluptate quis unde modi officia sint magni culpa?
+    </span>   
+    </p>
+</body>
+</html>

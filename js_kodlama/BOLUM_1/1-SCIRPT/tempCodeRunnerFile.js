@@ -1,0 +1,1 @@
+mesaj = `Benim adım ${ad}  ve  soyadım ${soyad}. ${sehir}'de yaşıyorum  Emekliliğe  ${(65-yas)}   yılım kaldı.`;

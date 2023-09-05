@@ -1,0 +1,11 @@
+C:\Users\RECEP TAYYİB OSMA\Desktop\otopark_otomasyonu\otopark_otomasyonu\bin\Debug\otopark_otomasyonu.exe.config
+C:\Users\RECEP TAYYİB OSMA\Desktop\otopark_otomasyonu\otopark_otomasyonu\bin\Debug\otopark_otomasyonu.exe
+C:\Users\RECEP TAYYİB OSMA\Desktop\otopark_otomasyonu\otopark_otomasyonu\bin\Debug\otopark_otomasyonu.pdb
+C:\Users\RECEP TAYYİB OSMA\Desktop\otopark_otomasyonu\otopark_otomasyonu\obj\Debug\otopark_otomasyonu.csprojAssemblyReference.cache
+C:\Users\RECEP TAYYİB OSMA\Desktop\otopark_otomasyonu\otopark_otomasyonu\obj\Debug\otopark_otomasyonu.Form1.resources
+C:\Users\RECEP TAYYİB OSMA\Desktop\otopark_otomasyonu\otopark_otomasyonu\obj\Debug\otopark_otomasyonu.Properties.Resources.resources
+C:\Users\RECEP TAYYİB OSMA\Desktop\otopark_otomasyonu\otopark_otomasyonu\obj\Debug\otopark_otomasyonu.csproj.GenerateResource.cache
+C:\Users\RECEP TAYYİB OSMA\Desktop\otopark_otomasyonu\otopark_otomasyonu\obj\Debug\otopark_otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\RECEP TAYYİB OSMA\Desktop\otopark_otomasyonu\otopark_otomasyonu\obj\Debug\otopark_otomasyonu.exe
+C:\Users\RECEP TAYYİB OSMA\Desktop\otopark_otomasyonu\otopark_otomasyonu\obj\Debug\otopark_otomasyonu.pdb
+C:\Users\RECEP TAYYİB OSMA\Desktop\otopark_otomasyonu\otopark_otomasyonu\obj\Debug\otopark_otomasyonu.frmaraçotoparkyerleri.resources

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line{
+            font-weight: bold;
+            color: brown;
+            word-spacing: 3px;
+            letter-spacing: 1px;
+        }
+        p.about::first-line
+        {color: green;
+        }
+        p::first-letter{
+            font-size: 48px;
+        }
+        ::selection
+        {
+            /*metni seçmek için */
+            background-color: aqua;
+        }
+        p::after
+        {
+            /* emoji için */
+            content: '\261D';
+        }
+
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut rem error quo voluptate, culpa dignissimos explicabo necessitatibus laboriosam in nobis omnis commodi qui ipsam asperiores aspernatur, tempora obcaecati sunt. Minima nemo vitae fugiat porro sint repudiandae veritatis nihil autem modi incidunt aperiam labore ad voluptate consectetur, esse unde a. Maxime!
+    </p>
+    <p class="about"> 
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis corrupti, aliquid veritatis optio, nobis possimus dolorem alias error itaque, molestiae molestias. Placeat doloremque modi similique sunt fugit, asperiores, est aperiam, dignissimos praesentium voluptatibus rem voluptas sit dolores perferendis ullam. Asperiores ipsam neque magni maiores labore fuga nisi, molestias excepturi sint.
+    </p>
+</body>
+</html>

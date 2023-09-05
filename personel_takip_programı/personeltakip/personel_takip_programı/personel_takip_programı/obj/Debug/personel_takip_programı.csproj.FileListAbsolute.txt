@@ -1,0 +1,10 @@
+C:\Users\RECEP TAYYİB OSMA\Desktop\personel_takip_programı\personeltakip\personel_takip_programı\personel_takip_programı\bin\Debug\personel_takip_programı.exe.config
+C:\Users\RECEP TAYYİB OSMA\Desktop\personel_takip_programı\personeltakip\personel_takip_programı\personel_takip_programı\bin\Debug\personel_takip_programı.exe
+C:\Users\RECEP TAYYİB OSMA\Desktop\personel_takip_programı\personeltakip\personel_takip_programı\personel_takip_programı\bin\Debug\personel_takip_programı.pdb
+C:\Users\RECEP TAYYİB OSMA\Desktop\personel_takip_programı\personeltakip\personel_takip_programı\personel_takip_programı\obj\Debug\personel_takip_programı.csprojAssemblyReference.cache
+C:\Users\RECEP TAYYİB OSMA\Desktop\personel_takip_programı\personeltakip\personel_takip_programı\personel_takip_programı\obj\Debug\personel_takip_programı.Form1.resources
+C:\Users\RECEP TAYYİB OSMA\Desktop\personel_takip_programı\personeltakip\personel_takip_programı\personel_takip_programı\obj\Debug\personel_takip_programı.Properties.Resources.resources
+C:\Users\RECEP TAYYİB OSMA\Desktop\personel_takip_programı\personeltakip\personel_takip_programı\personel_takip_programı\obj\Debug\personel_takip_programı.csproj.GenerateResource.cache
+C:\Users\RECEP TAYYİB OSMA\Desktop\personel_takip_programı\personeltakip\personel_takip_programı\personel_takip_programı\obj\Debug\personel_takip_programı.csproj.CoreCompileInputs.cache
+C:\Users\RECEP TAYYİB OSMA\Desktop\personel_takip_programı\personeltakip\personel_takip_programı\personel_takip_programı\obj\Debug\personel_takip_programı.exe
+C:\Users\RECEP TAYYİB OSMA\Desktop\personel_takip_programı\personeltakip\personel_takip_programı\personel_takip_programı\obj\Debug\personel_takip_programı.pdb

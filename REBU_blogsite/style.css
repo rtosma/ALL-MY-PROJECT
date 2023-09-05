@@ -1,0 +1,61 @@
+.blogcover
+{
+    background-size: cover;
+}
+.bg-color
+{
+    background-color: black;
+}
+.blogcolor{
+    background-color: #ffff;
+}
+.navbar
+{
+    background: #f1b709 !important;
+}
+
+.bg-dark
+{ background: #efb609  !important;}
+
+.card-img-top
+{
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+}
+
+#map{
+    height: 450px;
+ }
+
+@media (min-width: 768px) 
+{
+    .card-img-top
+    {
+        height: 32vh;  
+    }
+
+    #map{
+        height: 100%;
+     }
+ }
+ .float {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+    }
+    
+    .my-float {
+    margin-top:16px;
+    }
+
+
